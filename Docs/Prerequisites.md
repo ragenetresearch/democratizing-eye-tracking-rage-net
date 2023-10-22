@@ -1,5 +1,17 @@
 # Prerequisites
 
+## 1. Downloading data from Drive
+
+Drive url: https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link
+
+1.1 Download `OpenCvDNN` content and add it to `/Models/OpenCvDNN` folder.
+
+1.2 Download `ShapePredictors` content and add it to `/ShapePredictors` folder.
+
+1.3 Download `rn_w_attention__tf_model` file and add it to `/Models/rn_w_attention__tf_model` folder.
+
+1.4 Download and unzip `Study_2.zip` file and add it to `/Datasets/Study_2` folder.
+
 ## 2. Conda's environment for Windows using Wsl2 and NVIDIA GPU
 
 Following setup covers installing conda environment for Windows device with NVIDIA GPU using Wsl2.
