@@ -167,5 +167,7 @@ ShapePredictors/*
 Models/OpenCvDNN/*
 !Models/OpenCvDNN/.gitkeep
 
-Datasets/Study2/Participants/*
-!Datasets/Study2/Participants/.gitkeep
+Datasets/Study_2/Participants/*
+!Datasets/Study_2/Participants/.gitkeep
+
+Models/rn_sw_attention__tf_model
