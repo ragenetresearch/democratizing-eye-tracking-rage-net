@@ -1,0 +1,26 @@
+# Deep learning
+tensorflow_probability
+tensorflow_datasets
+tensorflow
+keras
+
+# Data science libs
+matplotlib
+numpy
+pandas
+cmake
+scipy
+
+# Image processing
+opencv-python
+mediapipe
+imutils
+dlib
+
+# Jupyter lab
+jupyterlab
+notebook
+ipywidgets
+
+# Utils
+tqdm
