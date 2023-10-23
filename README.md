@@ -1,3 +1,9 @@
+# Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch
+
+## About
+
+This is the official Github repository of the research paper Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch.
+
 ## Study 2
 
 - [Prerequisities](./Docs/Prerequisites.md)
