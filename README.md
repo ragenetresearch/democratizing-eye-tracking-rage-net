@@ -2,7 +2,7 @@
 
 ## About
 
-This is the official Github repository of the research paper [Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch].
+This is the official Github repository of the research paper [Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch]().
 The contents of this paper subsume two primary topics. First is the proposal of RAGE-net (Residual Apperance-based Gaze Estimation Network), a novel convolutional neural network for calibrationless prediction of the user's gaze point on the screen, by using data from a webcam. With the angular error of 4.08° in the MPIIFaceGaze dataset, RAGE-net outperforms state-of-the-art calibrationless appearance-based models and uses a considerably smaller number of parameters. The second subject of the paper is an applicability analysis of the apperance-based model - investigation of how the error of the model (higher compared to established feature-based infrared eye trackers) translates into gaze visualizations, and how factors of the environment such as illumination, position of the camera, distance from the screen or wearing glasses practically impact the resulting gaze estimation.
 
 #### Table of Contents
@@ -19,8 +19,12 @@ The contents of this paper subsume two primary topics. First is the proposal of 
 [Place for a bibtex-format paper citation]
 
 ## <a name="a-installation"> Installation
-TBA
-[Prerequisities](./Docs/Prerequisites.md)
+Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are available on Google Drive. To assure compatibility, third party resources ShapePredictors and OpenCvDNN in their utilized versions are also backed up on drive. After checkout of this repository, to prepare the environment and install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
+
+* `rn_w_attention__tf_model` is the model trained on the MPIIFaceGaze dataset
+* `Study_2.zip` contains the complete dataset from Experiment 3 (webcam images of 30 participants gazing at fixed points under 6 varied environmental conditions)
+* `OpenCvDNN`
+* `ShapePredictors`
 
 ## <a name="a-data-normalization"> Data normalization
 TBA
