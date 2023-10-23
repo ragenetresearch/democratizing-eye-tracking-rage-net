@@ -27,8 +27,7 @@ Due to their size, the trained model and the dataset of participants collected t
 * `ShapePredictors`
 
 ## <a name="a-data-normalization"> Data normalization
-TBA
-[Preprocess](./Notebooks/Study2/Preprocess.ipynb)
+The proposed network entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the preprocessing.
 
 ## <a name="a-gaze-estimation"> Gaze estimation
 TBA
