@@ -61,7 +61,7 @@ He received his PhD degree in computer science from the [Faculty of Informatics 
 He received his master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He is a researcher with background in software engineering, whose current topics of interest involve user behavior, human-computer interaction, UX research methods & design practices, and machine learning. Currently occupies the position of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), with focus on research that supports work of UX professionals.
 - Email: peter.demcak([AT])uxtweak.com
 
-### Peter Nemcek
+### Jozef Majzel
 He holds a master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He specializes in areas such as user behavior, UX research methods and design principles, as well as machine learning. Presently holds the role of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), where he focuses on user behavior analytics.
 
 ### Giang Nguyen
