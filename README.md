@@ -75,7 +75,7 @@ She is a senior researcher and associate professor at the [Faculty of Informatic
 
 ### Jozef Majzel
 He holds a master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He specializes in areas such as user behavior, UX research methods and design principles, as well as computer vision and deep learning. Presently holds the role of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), where he focuses on user behavior analytics.
-- [LinkedIn](www.linkedin.com/in/jozef-majzel)
+- [LinkedIn](https://www.linkedin.com/in/jozef-majzel)
 - [Google Scholar](https://scholar.google.com/citations?user=ywuWTh0AAAAJ&hl)
 - Email: xmajzel@stuba.sk
 
