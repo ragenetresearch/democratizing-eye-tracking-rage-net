@@ -63,16 +63,21 @@ He received his PhD degree in computer science from the [Faculty of Informatics 
 
 ### Peter Demcak
 He received his master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He is a researcher with background in software engineering, whose current topics of interest involve user behavior, human-computer interaction, UX research methods & design practices, and machine learning. Currently occupies the position of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), with focus on research that supports work of UX professionals.
+- [LinkedIn](https://www.linkedin.com/in/giang-nguyen-3307b8b/)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=IEmgzZkAAAAJ)
 - Email: peter.demcak([AT])uxtweak.com
-
-### Jozef Majzel
-He holds a master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He specializes in areas such as user behavior, UX research methods and design principles, as well as machine learning. Presently holds the role of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), where he focuses on user behavior analytics.
 
 ### Giang Nguyen
 She is a senior researcher and associate professor at the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). She focuses on machine learning, deep learning, soft computing, and security and reliability. She is also a reviewer and editor for Web of Science journals and member of program committee, editor, organizator for international conferences.
 - [LinkedIn](https://www.linkedin.com/in/giang-nguyen-3307b8b/)
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=IEmgzZkAAAAJ)
 - Email: giang.nguyen([AT])stuba.sk
+
+### Jozef Majzel
+He holds a master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He specializes in areas such as user behavior, UX research methods and design principles, as well as computer vision and deep learning. Presently holds the role of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), where he focuses on user behavior analytics.
+- [LinkedIn](www.linkedin.com/in/jozef-majzel)
+- [Google Scholar](https://scholar.google.com/citations?user=ywuWTh0AAAAJ&hl)
+- Email: xmajzel@stuba.sk
 
 ## <a name="a-license"> License
 
