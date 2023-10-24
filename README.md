@@ -36,22 +36,28 @@ Repository structure:
 * Utils - helper script files
 
 ## <a name="a-data-normalization"> Data normalization
-The proposed network entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the normalization.
+The proposed network design entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the normalization.
 
 ## <a name="a-gaze-estimation"> Gaze estimation
-TBA
-[Predict](./Notebooks/Study2/Predict.ipynb)
+Gaze estimation with the RAGE-net model can be replicated with the [Predict](./Notebooks/Study2/Predict.ipynb) notebook.
 
 ## <a name="a-hypothesis-testing"> Hypothesis testing
-TBA
-[Test hypothesis](./Notebooks/Study2/Test-hypothesis.ipynb)
+Stated hypotheses about the effect of environmental factors on RAGE-net model gaze estimations are statistically tested, and diagrams illustrating these statistical tests are plotted in the [Test hypothesis](./Notebooks/Study2/Test-hypothesis.ipynb) notebook.
 
 ## <a name="a-visualization"> Visualization
-TBA
-[Visualize](./Notebooks/Study2/Visualize.ipynb)
+Visualizations of gaze tracking accuracy (positions of gaze points on the screen) are generated in the [Visualize](./Notebooks/Study2/Visualize.ipynb) notebook.
 
 ## <a name="a-authors"> Authors
-TBA
+
+### Eduard Kuric
+He is a researcher and lecturer at [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He is also a founder of [UXtweak](https://www.uxtweak.com). His research interests include user modeling, human-computer interaction, and machine learning.
+- Email: eduard.kuric([AT])stuba.sk
+- [LinkedIn](https://www.linkedin.com/in/eduard-kuric-b7141280/)
+- [Google Scholar](https://scholar.google.com/citations?user=MwjpNoAAAAAJ&hl=en&oi=ao)
+
+### Peter Demcak
+He is a researcher at [UXtweak Research](https://www.uxtweak.com/). His current research topics of interest involve user behavior, UX research methods and design practices, and machine learning.
+- Email: peter.demcak([AT])uxtweak.com
 
 ## <a name="a-license"> License
 
