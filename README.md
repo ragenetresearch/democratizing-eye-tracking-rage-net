@@ -19,15 +19,24 @@ The contents of this paper subsume two primary topics. First is the proposal of 
 [Place for a bibtex-format paper citation]
 
 ## <a name="a-installation"> Installation
-Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are available on Google Drive. To assure compatibility, third party resources ShapePredictors and OpenCvDNN in their utilized versions are also backed up on drive. After checkout of this repository, to prepare the environment and install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
+Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on drive. After ckecking out this repository, to prepare the environment, neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
 
-* `rn_w_attention__tf_model` is the model trained on the MPIIFaceGaze dataset
-* `Study_2.zip` contains the complete dataset from Experiment 3 (webcam images of 30 participants gazing at fixed points under 6 varied environmental conditions)
-* `OpenCvDNN`
-* `ShapePredictors`
+The drive directory contains:
+* `rn_w_attention__tf_model` - RAGE-net model trained on the MPIIFaceGaze dataset
+* `Study_2.zip` - complete dataset from Experiment 3 (webcam images of 30 participants gazing at fixed points under 6 varied environmental conditions)
+* `OpenCvDNN` - OpenCV Caffe model used for face detection
+* `ShapePredictors` - [dlib](http://dlib.net/) shape predictor model used for estimation of 2D facial landmarks
+
+Repository structure:
+* Dataset - data obtain from the experiment (see instructions above for how to import from Google Drive)
+* Docs - supporting documents (see instructions above for how to import from Google Drive)
+* Models - prediction models and their source code
+* Notebooks - Jupyter source code for prediction, hypothesis testing and generation of visualizations
+* Shape predictors - dlib model for face detection (see instructions above for how to import from Google Drive)
+* Utils - helper script files
 
 ## <a name="a-data-normalization"> Data normalization
-The proposed network entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the preprocessing.
+The proposed network entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the normalization.
 
 ## <a name="a-gaze-estimation"> Gaze estimation
 TBA
