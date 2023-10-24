@@ -51,6 +51,10 @@ Visualizations of gaze tracking accuracy (positions of gaze points on the screen
 
 ## <a name="a-authors"> Authors
 
+### General contact
+
+Email: ragenet.research([AT])gmail.com
+
 ### Eduard Kuric
 He received his PhD degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He is a researcher and assistant professor at the same university. His research interests include human-computer interaction, user modeling, personalized web-based systems, and machine learning. Eduard is also the head of the UX Research Department at [UXtweak](https://www.uxtweak.com) and the founder of [UXtweak Research](https://www.uxtweak.com).
 - Email: eduard.kuric([AT])stuba.sk
