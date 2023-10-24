@@ -21,7 +21,7 @@ The second subject of the paper extends to an applicability analysis of the appe
 [Place for a bibtex-format paper citation]
 
 ## <a name="a-installation"> Installation
-Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on drive. After ckecking out this repository, to prepare the environment, neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
+Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on the drive. After cloning the contents of this repository, to prepare the environment, the neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
 
 The drive directory contains:
 * `rn_w_attention__tf_model` - RAGE-net model trained on the [MPIIFaceGaze](https://www.perceptualui.org/research/datasets/MPIIFaceGaze/) dataset
@@ -30,9 +30,9 @@ The drive directory contains:
 * `ShapePredictors` - [dlib](http://dlib.net/) shape predictor model used for estimation of 2D facial landmarks
 
 Repository structure:
-* Dataset - data obtain from the experiment (see instructions above for how to import from Google Drive)
-* Docs - supporting documents (see instructions above for how to import from Google Drive)
-* Models - prediction models and their source code
+* Dataset - data obtained from the experiment (see instructions above for how to import from Google Drive)
+* Docs - supporting documents
+* Models - prediction models and their source code (see instructions above for how to import from Google Drive)
 * Notebooks - Jupyter source code for prediction, hypothesis testing and generation of visualizations
 * Shape predictors - dlib model for face detection (see instructions above for how to import from Google Drive)
 * Utils - helper script files
