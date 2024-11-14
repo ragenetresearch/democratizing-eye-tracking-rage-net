@@ -17,10 +17,10 @@ The second subject of the paper extends to an applicability analysis of the appe
 * [Authors](#a-authors)
 * [License](#a-license)
 
-## <a name="a-citation"> Paper Citation
+## <a name="a-citation"> Paper Citation </a>
 [Place for a bibtex-format paper citation]
 
-## <a name="a-installation"> Installation
+## <a name="a-installation"> Installation </a>
 Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on the drive. After cloning the contents of this repository, to prepare the environment, the neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
 
 The drive directory contains:
@@ -37,19 +37,19 @@ Repository structure:
 * Shape predictors - dlib model for face detection (see instructions above for how to import from Google Drive)
 * Utils - helper script files
 
-## <a name="a-data-normalization"> Data normalization
+## <a name="a-data-normalization"> Data normalization </a>
 The proposed network design entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the normalization.
 
-## <a name="a-gaze-estimation"> Gaze estimation
+## <a name="a-gaze-estimation"> Gaze estimation </a>
 Gaze estimation with the RAGE-net model can be replicated with the [Predict](./Notebooks/Study2/Predict.ipynb) notebook.
 
-## <a name="a-hypothesis-testing"> Hypothesis testing
+## <a name="a-hypothesis-testing"> Hypothesis testing </a>
 Stated hypotheses about the effect of environmental factors on RAGE-net model gaze estimations are statistically tested, and diagrams illustrating these statistical tests are plotted in the [Test hypothesis](./Notebooks/Study2/Test-hypothesis.ipynb) notebook.
 
-## <a name="a-visualization"> Visualization
+## <a name="a-visualization"> Visualization </a>
 Visualizations of gaze tracking accuracy (positions of gaze points on the screen) are generated in the [Visualize](./Notebooks/Study2/Visualize.ipynb) notebook.
 
-## <a name="a-authors"> Authors
+## <a name="a-authors"> Authors </a>
 
 ### General contact
 
@@ -77,9 +77,9 @@ She is a senior researcher and associate professor at the [Faculty of Informatic
 He holds a master’s degree in computer science from the [Faculty of Informatics and Information Technologies](https://www.fiit.stuba.sk/), [Slovak University of Technology in Bratislava](https://www.stuba.sk/). He specializes in areas such as user behavior, UX research methods and design principles, as well as computer vision and deep learning. Presently holds the role of a scientific and user experience researcher at [UXtweak Research](https://www.uxtweak.com/), where he focuses on user behavior analytics.
 - [LinkedIn](https://www.linkedin.com/in/jozef-majzel)
 - [Google Scholar](https://scholar.google.com/citations?user=ywuWTh0AAAAJ&hl)
-- Email: xmajzel([AT])stuba.sk
+- Email: qmajzel([AT])stuba.sk
 
-## <a name="a-license"> License
+## <a name="a-license"> License </a>
 
 This work is licensed under a
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
