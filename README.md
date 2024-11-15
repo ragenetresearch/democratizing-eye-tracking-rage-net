@@ -10,6 +10,8 @@ The second subject of the paper extends to an applicability analysis of the appe
 #### Table of Contents
 * [Paper Citation](#a-citation)
 * [Installation](#a-installation)
+* [Computational Complexity: FLOPs and Parameters](#a-computational-complexity)
+* [Heatmap Comparison Experiment with Infrared Gaze Tracking](#a-heatmap-comparison-experiment)
 * [Data normalization](#a-data-normalization)
 * [Gaze estimation](#a-gaze-estimation)
 * [Hypothesis testing](#a-hypothesis-testing)
