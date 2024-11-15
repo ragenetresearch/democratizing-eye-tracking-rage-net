@@ -3,7 +3,7 @@
 ## About
 
 This is the official Github repository of the research paper [Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch]().
-The contents of this paper subsume two primary topics. First is the proposal of RAGE-net (Residual Apperance-based Gaze Estimation Network), a novel convolutional neural network for calibrationless prediction of the user's gaze point on the screen, based on image data obtained from a webcam. With the angular error of 4.08° in the [MPIIFaceGaze](https://www.perceptualui.org/research/datasets/MPIIFaceGaze/) dataset, RAGE-net outperforms state-of-the-art calibrationless appearance-based models and uses a considerably smaller number of parameters.
+The contents of this paper subsume two primary topics. First is the proposal of RAGE-net (Residual Apperance-based Gaze Estimation Network), a novel convolutional neural network for calibrationless prediction of the user's gaze point on the screen, based on image data obtained from a webcam. With the angular error of 4.08° in the [MPIIFaceGaze](https://www.perceptualui.org/research/datasets/MPIIFaceGaze/) dataset and 3.96° in the [MPIIGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild), RAGE-net outperforms state-of-the-art calibrationless appearance-based models and uses a considerably smaller number of parameters.
 
 The second subject of the paper extends to an applicability analysis of the apperance-based model - investigation of how the angular error of the model (which is higher compared to established feature-based gaze estimation utilized by dedicated infrared eye trackers) translates into reliability of its gaze visualizations, and how the factors of the environment such as illumination, position of the camera, distance from the screen or whether users are wearing glasses practically impact the resulting gaze estimation.
 
@@ -36,6 +36,12 @@ Repository structure:
 * Notebooks - Jupyter source code for prediction, hypothesis testing and generation of visualizations
 * Shape predictors - dlib model for face detection (see instructions above for how to import from Google Drive)
 * Utils - helper script files
+
+## <a name="a-computational-complexity"> Computational Complexity: FLOPs and Parameters </a>
+The computational complexity of RAGE-net highlights key metrics such as FLOPs (Floating Point Operations Per Second), MACs (Multiply-Accumulate Operations), and the total number of parameters used in the model. Please refer to the [Flops calculation](./Notebooks/Flops-calculation.ipynb) jupyter notebook for further details.
+
+## <a name="a-heatmap-comparison-experiment"> Heatmap Comparison Experiment with Infrared Gaze Tracking </a>
+This experiment, detailed in the [Quantitative-analysis](./Notebooks/Study1/Quantitative-analysis.ipynb) jupyter notebook, compares gaze estimation outputs from the RAGE-net model and a commercial infrared gaze tracking system to assess practical accuracy through gaze distribution patterns. Metrics such as Jensen-Shannon Divergence, SSIM, and correlation were used to evaluate similarities and differences in gaze heatmaps across various grid ratios.
 
 ## <a name="a-data-normalization"> Data normalization </a>
 The proposed network design entails an input data normalization pipeline, where raw input images from the webcam are preprocessed to be transformed into a form expected by the network. See Jupyter notebook [Preprocess](./Notebooks/Study2/Preprocess.ipynb) to replicate the normalization.
