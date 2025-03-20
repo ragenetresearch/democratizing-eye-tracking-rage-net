@@ -20,7 +20,18 @@ The second subject of the paper extends to an applicability analysis of the appe
 * [License](#a-license)
 
 ## <a name="a-citation"> Paper Citation </a>
-[Place for a bibtex-format paper citation]
+```bibtex
+@article{KURIC2025110494,
+  title = {Democratizing eye-tracking? Appearance-based gaze estimation with improved attention branch},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {149},
+  pages = {110494},
+  year = {2025},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2025.110494},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197625004944},
+  author = {Eduard Kuric and Peter Demcak and Jozef Majzel and Giang Nguyen},
+  keywords = {Gaze estimation, Eye tracking, Eye appearance, Residual learning, Attention branch, Environmental factors}}
 
 ## <a name="a-installation"> Installation </a>
 Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on the drive. After cloning the contents of this repository, to prepare the environment, the neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
