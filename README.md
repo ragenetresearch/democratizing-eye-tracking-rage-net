@@ -32,6 +32,7 @@ The second subject of the paper extends to an applicability analysis of the appe
   url = {https://www.sciencedirect.com/science/article/pii/S0952197625004944},
   author = {Eduard Kuric and Peter Demcak and Jozef Majzel and Giang Nguyen},
   keywords = {Gaze estimation, Eye tracking, Eye appearance, Residual learning, Attention branch, Environmental factors}}
+```
 
 ## <a name="a-installation"> Installation </a>
 Due to their size, the trained model and the dataset of participants collected to evaluate the impact of factors of the environment (Experiment 3 in the paper) are [shared via Google Drive](https://drive.google.com/drive/folders/1RHs7xGCD-k13N2YD2P0-54d0tmD7_XKy?usp=share_link). To assure compatibility and replicability, models for face detection and estimation of 2D facial landmarks from the utilized OpenCV and dlib libraries respectively, are also backed up on the drive. After cloning the contents of this repository, to prepare the environment, the neccessary drivers and to install all requirements in the expected directories, follow the [prerequisites guide](./Docs/Prerequisites.md).
