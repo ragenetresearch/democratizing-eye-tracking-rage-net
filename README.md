@@ -2,7 +2,7 @@
 
 ## About
 
-This is the official Github repository of the research paper [Democratizing Eye-Tracking? RAGE-net: Appearance-Based Gaze Estimation with Improved Attention Branch]().
+This is the official Github repository of the research paper [Democratizing Eye-Tracking? Appearance-Based Gaze Estimation with Improved Attention Branch](https://doi.org/10.1016/j.engappai.2025.110494).
 The contents of this paper subsume two primary topics. First is the proposal of RAGE-net (Residual Apperance-based Gaze Estimation Network), a novel convolutional neural network for calibrationless prediction of the user's gaze point on the screen, based on image data obtained from a webcam. With the angular error of 4.08° in the [MPIIFaceGaze](https://www.perceptualui.org/research/datasets/MPIIFaceGaze/) dataset and 3.96° in the [MPIIGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild), RAGE-net outperforms state-of-the-art calibrationless appearance-based models and uses a considerably smaller number of parameters.
 
 The second subject of the paper extends to an applicability analysis of the apperance-based model - investigation of how the angular error of the model (which is higher compared to established feature-based gaze estimation utilized by dedicated infrared eye trackers) translates into reliability of its gaze visualizations, and how the factors of the environment such as illumination, position of the camera, distance from the screen or whether users are wearing glasses practically impact the resulting gaze estimation.
