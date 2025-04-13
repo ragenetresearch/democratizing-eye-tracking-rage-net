@@ -31,7 +31,8 @@ The second subject of the paper extends to an applicability analysis of the appe
   doi = {https://doi.org/10.1016/j.engappai.2025.110494},
   url = {https://www.sciencedirect.com/science/article/pii/S0952197625004944},
   author = {Eduard Kuric and Peter Demcak and Jozef Majzel and Giang Nguyen},
-  keywords = {Gaze estimation, Eye tracking, Eye appearance, Residual learning, Attention branch, Environmental factors}}
+  keywords = {Gaze estimation, Eye tracking, Eye appearance, Residual learning, Attention branch, Environmental factors
+}}  
 ```
 
 ## <a name="a-installation"> Installation </a>
